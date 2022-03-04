@@ -57,5 +57,14 @@ public class Main {
         }
 
         // Step 5: Print the result in the main method
+        // Step 6: Lastly, uncomment the if / else statement to print
+        //         if the result is even or odd
+
+//        if (result % 2 == 0) {
+//            System.out.println("Result is even!");
+//        }
+//        else {
+//            System.out.println("Result is odd!");
+//        }
     }
 }
