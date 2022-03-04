@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    // Let's refactor this to utilize and work with return statements
+    // First run this to see how the calculator works.
+    // Then let's refactor this to utilize and work with return statements
 
     // Step One: Alter each method's return type from 'void' -> 'int'
     // Step Two: return the result in each method as opposed to printing the result
