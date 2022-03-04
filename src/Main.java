@@ -48,6 +48,7 @@ public class Main {
         //     - we now have access to that variable within main and can either print it
         //       or do other things with it, send it to other methods or do some more code in
         //       the main on that variable
+        //     - switch out default statements once re-factored
 
         switch (operation) {
             case "add" -> add(firstNum, secondNum);
@@ -55,17 +56,21 @@ public class Main {
             case "multiply" -> multiply(firstNum, secondNum);
             case "divide" -> divide(firstNum, secondNum);
             default -> System.out.println("You are attempting to do some calculations that are outside of my control :(");
+            // default -> result = -1;
         }
 
         // Step 5: Print the result in the main method
         // Step 6: Lastly, uncomment the if / else statement to print
         //         if the result is even or odd
 
-//        if (result % 2 == 0) {
-//            System.out.println("Result is even!");
-//        }
-//        else {
-//            System.out.println("Result is odd!");
-//        }
+        //if (result < 0) {
+        //    System.out.println("You are attempting to do some calculations that are outside of my control :(");
+        //}
+        //else if (result % 2 == 0) {
+        //    System.out.println("Result is even!\nResult: " + result);
+        //}
+        //else {
+        //    System.out.println("Result is odd!\nResult: " + result);
+        //}
     }
 }
